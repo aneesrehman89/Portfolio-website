@@ -4,7 +4,7 @@ import "../App.css";
 import Navbar from "./Navbar";
 import punjab from '../Pics/pgc.jpg'
 import Kahnur from '../Pics/kahnur.jpg'
-// import 'react-circular-progressbar/dist/styles.css';
+import umt from '../Pics/umt.jpg'
 export default function MyResume() {
   const htmlPercentage = 95;
   const cssPercentage = 88;
@@ -41,9 +41,8 @@ export default function MyResume() {
                 <br />
                 <img
                   class="bd-placeholder-img bd-placeholder-img-sm featurette-image img-fluid mx-auto rounded"
-                  width="150"
-                  height="150"
-                  src="https://res.cloudinary.com/dvccsosdc/image/upload/v1706047900/umt_zj4usm.jpg"
+                  width="200"
+                  src={umt}
                   alt=""
                 />
               </div>
@@ -68,7 +67,7 @@ export default function MyResume() {
                 </span>
                 <img
                   className="bd-placeholder-img bd-placeholder-img-sm featurette-image img-fluid mx-auto rounded"
-                  width="170"
+                       width="200"
                   // height="120"
                   src={punjab}
                   alt=""
@@ -93,7 +92,7 @@ export default function MyResume() {
                 <span className="textColor">Kahnur Eduction School</span>
                 <img
                   className="bd-placeholder-img bd-placeholder-img-sm featurette-image img-fluid mx-auto rounded"
-                  width="170"
+                      width="200"
                   src={Kahnur}
                   alt=""
                 />
