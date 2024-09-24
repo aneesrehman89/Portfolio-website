@@ -48,7 +48,7 @@ export default function Navbar() {
                   aria-current="page"
                   to="/MyResume"
                 >
-                  My Resume
+                  Education
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -57,7 +57,7 @@ export default function Navbar() {
                   aria-current="page"
                   to="/Portfolio"
                 >
-                  Portfolio
+                  Projects
                 </NavLink>
               </li>
               <li className="nav-item">

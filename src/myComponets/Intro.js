@@ -1,11 +1,12 @@
-import React, { useEffect, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
-import "../App.css";
-import Navbar from "./Navbar";
-import anees1 from '../Pics/anees1.jpg'
+import React, { useEffect, useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
+import '../App.css';
+import Navbar from './Navbar';
+import anees1 from '../Pics/anees1.jpg';
+import emoji from '../Pics/smiling-emoticon.png';
 export default function Intro() {
   const texts = useMemo(
-    () => ["A Software Engineer", "As a MERN Stack Developer"],
+    () => ['A Software Engineer', 'As a MERN Stack Developer'],
     []
   );
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -25,82 +26,84 @@ export default function Intro() {
   return (
     <div>
       <Navbar />
-      <div className="backGroundColor">
-        <div className="container">
-          <div className="row featurette d-flex  justify-content-center align-items-center mx-auto my-3">
-            <div className="col-md-7 heading-s1 ">
-              <h2 className="featurette-heading textColor">
+      <div className='backGroundColor'>
+        <div className='container'>
+          <div className='row featurette d-flex  justify-content-center align-items-center mx-auto my-3'>
+            <div className='col-md-7 heading-s1 '>
+              <h2 className='featurette-heading textColor'>
                 <p>
-                  Hello, I'm Anees Ur Rehman
+                  Hii,
+                  I'm Anees Ur Rehman
                   <br />
                 </p>
-                <span className="text-warning">{currentText}</span>
+                <span className='text-warning'>{currentText}</span>
               </h2>
-              <p className="lead textColor">
-                I am a Student of BS Information Technology currently working as a
-                MERN stack Developer passionate about becoming a Full Stack developer. Insha'Allah in the future I will move
-                toward machine learning and AI.
+              <p className='lead textColor'>
+                I am a Student of BS Information Technology currently working as
+                a MERN stack Developer passionate about becoming a Full Stack
+                developer. Insha'Allah in the future I will move toward machine
+                learning and AI.
               </p>
-              <div className="ref ">
+              <div className='ref '>
                 <button
-                  type="button"
-                  className="btn btn-outline-warning bg-light"
+                  type='button'
+                  className='btn btn-outline-warning bg-light'
                 >
-                  <Link to="https://github.com/aneesrehman89">
+                  <Link to='https://github.com/aneesrehman89'>
                     <i
-                      className="fa-brands fa-github"
-                      style={{ color: "#212529" }}
+                      className='fa-brands fa-github'
+                      style={{ color: '#212529' }}
                     ></i>
                   </Link>
                 </button>
                 &nbsp;
                 <button
-                  type="button"
-                  className="btn btn-outline-warning bg-light"
+                  type='button'
+                  className='btn btn-outline-warning bg-light'
                 >
-                  <Link to="https://www.linkedin.com/in/aneesrehman89/">
+                  <Link to='https://www.linkedin.com/in/aneesrehman89/'>
                     <i
-                      className="fa-brands fa-linkedin-in"
-                      style={{ color: "#212529" }}
+                      className='fa-brands fa-linkedin-in'
+                      style={{ color: '#212529' }}
                     ></i>
                   </Link>
                 </button>
                 &nbsp;
-                <button 
-                  type="button"
-                  className="btn btn-outline-warning bg-light"
-                  style={{ marginRight: "3px" }}
+                <button
+                  type='button'
+                  className='btn btn-outline-warning bg-light'
+                  style={{ marginRight: '3px' }}
                 >
-                  <Link to="https://stackoverflow.com/users/19068397/anees-ur-rehman-mian">
-                  <i className="fa-brands fa-stack-overflow"  
-                   style={{ color: "#212529" }}></i> 
+                  <Link to='https://stackoverflow.com/users/19068397/anees-ur-rehman-mian'>
+                    <i
+                      className='fa-brands fa-stack-overflow'
+                      style={{ color: '#212529' }}
+                    ></i>
                   </Link>
                 </button>
                 <button
-                  type="button"
-                  className="btn btn-outline-warning bg-light"
+                  type='button'
+                  className='btn btn-outline-warning bg-light'
                 >
-                  <Link to="mailto:umer_yasir_718">
+                  <Link to='mailto:umer_yasir_718'>
                     <i
-                      className="fa-solid fa-g"
-                      style={{ color: "#212529" }}
+                      className='fa-solid fa-g'
+                      style={{ color: '#212529' }}
                     ></i>
                   </Link>
                 </button>
                 &nbsp;
-              
                 <br />
                 <br />
-
               </div>
             </div>
-            <div className="col-md-5 my-4 Picture">
+            <div className='col-md-5 my-4 Picture'>
               <img
-                className="bd-placeholder-img bd-placeholder-img-sm featurette-image rounded Picture"
-                width="450"
-                height="450"
+                className='bd-placeholder-img bd-placeholder-img-sm featurette-image rounded Picture'
+                width='450'
+                height='450'
                 src={anees1}
-                alt=""
+                alt=''
               />
             </div>
           </div>

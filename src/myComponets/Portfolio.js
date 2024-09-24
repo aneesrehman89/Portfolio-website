@@ -25,6 +25,7 @@ export default function Portfolio() {
                 className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='230'
+                muted
                 autoPlay
                 loop
               >
@@ -68,6 +69,7 @@ export default function Portfolio() {
                 className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='230'
+                muted
                 autoPlay
                 loop
               >
@@ -114,6 +116,7 @@ export default function Portfolio() {
                 className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='225'
+                muted
                 src='https://res.cloudinary.com/dvccsosdc/image/upload/v1706048093/ToDo_List_q9p4dv.gif'
                 alt=''
               />
@@ -152,6 +155,7 @@ export default function Portfolio() {
                 className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='225'
+                muted
                 src='https://res.cloudinary.com/dvccsosdc/image/upload/v1706048071/conveter_skzidd.gif'
                 alt=''
               />
@@ -194,6 +198,7 @@ export default function Portfolio() {
                 className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='240'
+                muted
                 autoPlay
                 loop
               >
@@ -235,6 +240,7 @@ export default function Portfolio() {
                 className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='240'
+                muted
                 autoPlay
                 loop
               >
@@ -280,6 +286,7 @@ export default function Portfolio() {
                 className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='240'
+                muted
                 autoPlay
                 loop
               >
@@ -321,6 +328,7 @@ export default function Portfolio() {
                 className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='240'
+                muted
                 autoPlay
                 loop
               >
@@ -366,6 +374,7 @@ export default function Portfolio() {
                 className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='240'
+                muted
                 autoPlay
                 loop
               >
@@ -407,6 +416,7 @@ export default function Portfolio() {
                 className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='240'
+                muted
                 autoPlay
                 loop
               >
@@ -453,6 +463,7 @@ export default function Portfolio() {
                 className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='240'
+                muted
                 autoPlay
                 loop
               >
@@ -495,6 +506,7 @@ export default function Portfolio() {
                 className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='240'
+                muted
                 autoPlay
                 loop
               >
