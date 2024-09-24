@@ -3,38 +3,6 @@ import { NavLink, Link } from "react-router-dom";
 import "../App.css";
 import logo from "../Pics/new.png";
 export default function Navbar() {
-  // const [textColor, setTextColor] = useState({
-  //   color: "black",
-  // })
-  // const [styles, setStyles] = useState({
-  //   color: "white",
-  //   backgroundColor: "black"
-  // })
-  // const themeChange = () => {
-  //   if (styles.color === "black" && textColor.color === "black") {
-  //     setStyles({
-  //       color: "white",
-  //       backgroundColor: "#282C34",
-  //     })
-  //     setTextColor({
-  //       color: "white",
-  //     })
-  //     setBtn(< i className="fa-solid fa-sun fs-2" ></i >)
-  //   }
-  //   else {
-  //     setStyles({
-  //       color: "black",
-  //       backgroundColor: "white",
-  //     })
-  //     setTextColor({
-  //       color: "black",
-  //     })
-  //     setBtn(<i className="fa-solid fa-moon fs-2"></i>)
-  //   }
-  // }
-  // const [btn, setBtn] = useState(
-  //   <i className="fa-solid fa-moon fs-2"></i>
-  // )
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark Navbar container fixed-top">

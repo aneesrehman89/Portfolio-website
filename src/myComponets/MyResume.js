@@ -26,8 +26,8 @@ export default function MyResume() {
   return (
     <div>
       <Navbar />
-      <div className="container textColor my-3">
-        <div className="row">
+      <div className="container textColor my-3 ">
+        <div className="row ">
           <div className="col-8 col-12 col-sm-12 col-md-8 order-1 order-md-1 order-sm-1">
             <h2 className="Mainheading font-weight-bold">Education</h2>
             <br />
@@ -87,7 +87,7 @@ export default function MyResume() {
             <br />
             {/* <!-- -- ------------ Deen Public High School---------- --> */}
             <div className="row">
-              <div className="col-4 ">
+              <div className="col-4 mb-3 ">
                 <b className="heading font-weight-bold">2008-2017</b> <br />
                 <span className="textColor">Kahnur Eduction School</span>
                 <img
@@ -255,7 +255,6 @@ export default function MyResume() {
                     onMouseOver={handleMouseOver}
                     onMouseOut={handleMouseOut}
                   >
-                    {/* <i class="fa-brands fa-node" style={{ color: "#14a40a" }}></i> */}
                     Express
                     <i class="fa-brands fa-js" style={{ color: "#F0DB4F" }}></i>
                     {isHovering && (
@@ -293,26 +292,6 @@ export default function MyResume() {
                   </p>
                 </div>
               </div>
-              {/* <CircularProgressbar value={htmlPercentage} text={`${htmlPercentage}%`} />
-                                <h3 className='textColor d-flex justify-content-center'>Html</h3> */}
-
-              {/* <CircularProgressbar value={cssPercentage} text={`${cssPercentage}%`} />
-                                <h3 className='textColor d-flex justify-content-center'>CSS</h3> */}
-
-              {/* <CircularProgressbar value={jsPercentage} text={`${jsPercentage}%`} />
-                                <h3 className='textColor d-flex justify-content-center'>JavaScript</h3> */}
-
-              {/* <CircularProgressbar value={bootstrapPercentage} text={`${bootstrapPercentage}%`} />
-                                <h3 className='textColor d-flex justify-content-center'>BootStrap</h3> */}
-
-              {/* <CircularProgressbar value={bootstrapPercentage} text={`${bootstrapPercentage}%`} />
-                                <h3 className='textColor d-flex justify-content-center'>BootStrap</h3> */}
-
-              {/* <CircularProgressbar value={bootstrapPercentage} text={`${bootstrapPercentage}%`} />
-                                <h3 className='textColor d-flex justify-content-center'>BootStrap</h3> */}
-
-              {/* <CircularProgressbar value={bootstrapPercentage} text={`${bootstrapPercentage}%`} />
-                                <h3 className='textColor d-flex justify-content-center'>BootStrap</h3> */}
             </div>
           </div>
         </div>

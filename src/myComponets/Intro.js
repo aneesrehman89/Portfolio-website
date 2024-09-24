@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import Navbar from "./Navbar";
+import anees1 from '../Pics/anees1.jpg'
 export default function Intro() {
   const texts = useMemo(
     () => ["A Software Engineer", "As a MERN Stack Developer"],
@@ -27,7 +28,7 @@ export default function Intro() {
       <div className="backGroundColor">
         <div className="container">
           <div className="row featurette d-flex  justify-content-center align-items-center mx-auto my-3">
-            <div className="col-md-7 ">
+            <div className="col-md-7 heading-s1 ">
               <h2 className="featurette-heading textColor">
                 <p>
                   Hello, I'm Anees Ur Rehman
@@ -37,7 +38,7 @@ export default function Intro() {
               </h2>
               <p className="lead textColor">
                 I am a Student of BS Information Technology currently working as a
-                React.js Developer passionate about becoming a Full Stack developer. Insha'Allah in the future I will move
+                MERN stack Developer passionate about becoming a Full Stack developer. Insha'Allah in the future I will move
                 toward machine learning and AI.
               </p>
               <div className="ref ">
@@ -95,10 +96,10 @@ export default function Intro() {
             </div>
             <div className="col-md-5 my-4 Picture">
               <img
-                className="bd-placeholder-img bd-placeholder-img-sm featurette-image img-fluid mx-auto rounded Picture"
-                width="500"
-                height="500"
-                src="https://res.cloudinary.com/dvccsosdc/image/upload/v1706047800/best_abc7ya.png"
+                className="bd-placeholder-img bd-placeholder-img-sm featurette-image rounded Picture"
+                width="450"
+                height="450"
+                src={anees1}
                 alt=""
               />
             </div>

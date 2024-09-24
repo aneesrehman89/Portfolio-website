@@ -19,12 +19,12 @@ export default function Portfolio() {
       {/* --------------------------------------------First One----------------------------- */}
       <div className='container'>
         <div className='row my-3'>
-          <div className='col-md-5'>
-            <div className='card shadow-sm'>
+          <div className='col-md-5 ' >
+            <div className='card shadow-sm' style={{height: "430px"}}>
               <video
                 className='bd-placeholder-img card-img-top'
                 width='100%'
-                height='225'
+                height='230'
                 autoPlay
                 loop
               >
@@ -45,8 +45,8 @@ export default function Portfolio() {
                 <div className='d-flex justify-content-between align-items-center'>
                   <div className='btn-group'>
                     <Link
-                      to='https://umeryasirblog.netlify.app/'
-                      target='_blank'
+                   
+           
                     >
                       <button
                         type='button'
@@ -56,14 +56,14 @@ export default function Portfolio() {
                       </button>
                     </Link>
                   </div>
-                  <small className='text-light'>1/2 Month ago</small>
+                  <small className='text-light'>1 Month ago</small>
                 </div>
               </div>
             </div>
           </div>
           <div className='col-md-2'>&nbsp;&nbsp;&nbsp;&nbsp;</div>
           <div className='col-md-5 '>
-            <div className='card shadow-sm'>
+            <div className='card shadow-sm' style={{height: "430px"}}>
               <video
                 className='bd-placeholder-img card-img-top'
                 width='100%'
@@ -86,7 +86,7 @@ export default function Portfolio() {
                 </p>
                 <div className='d-flex justify-content-between align-items-center'>
                   <div className='btn-group'>
-                    <Link to='https://umerstore.netlify.app/' target='_blank'>
+                    <Link  >
                       <button
                         type='button'
                         className='btn btn-md btn-outline-warning'
@@ -106,7 +106,7 @@ export default function Portfolio() {
       <div className='container my-3'>
         <div className='row my-3'>
           <div className='col-md-5'>
-            <div className='card shadow-sm'>
+            <div className='card shadow-sm' style={{height: "430px"}}>
               <img
                 className='bd-placeholder-img card-img-top'
                 width='100%'
@@ -126,8 +126,7 @@ export default function Portfolio() {
                 <div className='d-flex justify-content-between align-items-center'>
                   <div className='btn-group'>
                     <Link
-                      to='https://umeryasir718.github.io/ToDoList/'
-                      target='_blank'
+                
                     >
                       <button
                         type='button'
@@ -137,14 +136,14 @@ export default function Portfolio() {
                       </button>
                     </Link>
                   </div>
-                  <small className='text-light'>2 Month ago</small>
+                  <small className='text-light'>1 Month ago</small>
                 </div>
               </div>
             </div>
           </div>
           <div className='col-md-2'>&nbsp;&nbsp;&nbsp;&nbsp;</div>
           <div className='col-md-5'>
-            <div className='card shadow-sm'>
+            <div className='card shadow-sm' style={{height: "430px"}}>
               <img
                 className='bd-placeholder-img card-img-top'
                 width='100%'
@@ -164,8 +163,7 @@ export default function Portfolio() {
                 <div className='d-flex justify-content-between align-items-center'>
                   <div className='btn-group'>
                     <Link
-                      href='https://umeryasir718.github.io/Curreny-Converter/'
-                      target='_blank'
+                    
                     >
                       <button
                         type='button'
@@ -175,7 +173,7 @@ export default function Portfolio() {
                       </button>
                     </Link>
                   </div>
-                  <small className='text-light'>2 Month ago</small>
+                  <small className='text-light'>1 Month ago</small>
                 </div>
               </div>
             </div>
@@ -186,7 +184,7 @@ export default function Portfolio() {
       <div className='container my-3'>
         <div className='row'>
           <div className='col-md-5 '>
-            <div className='card shadow-sm'>
+            <div className='card shadow-sm' style={{height: "430px"}}>
               <video
                 className='bd-placeholder-img card-img-top'
                 width='100%'
@@ -202,15 +200,14 @@ export default function Portfolio() {
                   <span className='text-warning font-weight-bold'>
                     Pexels Clone using React.js
                   </span>{' '}
-                  is a api fetcing functionality website based on HTML, CSS,
+                  is a api fetcing functionality website with interactive UI based on HTML, CSS,
                   JavaScript Bootstrap and React.js. It allow user to search any
-                  kind of thing.
+                  kind of thing based on their prefernces.
                 </p>
                 <div className='d-flex justify-content-between align-items-center'>
                   <div className='btn-group'>
                     <Link
-                      to='https://umeryasir718.github.io/WebTech/'
-                      target='_blank'
+                  
                     >
                       <button
                         type='button'
@@ -220,14 +217,14 @@ export default function Portfolio() {
                       </button>
                     </Link>
                   </div>
-                  <small className='text-light'>2/5 Month ago</small>
+                  <small className='text-light'>2 Month ago</small>
                 </div>
               </div>
             </div>
           </div>
           <div className='col-md-2'>&nbsp;&nbsp;&nbsp;&nbsp;</div>
           <div className='col-md-5'>
-            <div className='card shadow-sm'>
+            <div className='card shadow-sm' style={{height: "430px"}}>
               <video
                 className='bd-placeholder-img card-img-top'
                 width='100%'
@@ -256,7 +253,7 @@ export default function Portfolio() {
                       View
                     </button>
                   </div>
-                  <small className='text-light'>3 Month ago</small>
+                  <small className='text-light'>2 Month ago</small>
                 </div>
               </div>
             </div>
@@ -267,7 +264,7 @@ export default function Portfolio() {
       <div className='container my-3'>
         <div className='row'>
           <div className='col-md-5'>
-            <div className='card shadow-sm'>
+            <div className='card shadow-sm' style={{height: "430px"}}>
               <video
                 className='bd-placeholder-img card-img-top'
                 width='100%'
@@ -296,14 +293,14 @@ export default function Portfolio() {
                       View
                     </button>
                   </div>
-                  <small className='text-light'>3 Month ago</small>
+                  <small className='text-light'>1/5 Month ago</small>
                 </div>
               </div>
             </div>
           </div>
           <div className='col-md-2'>&nbsp;&nbsp;&nbsp;&nbsp;</div>
           <div className='col-md-5'>
-            <div className='card shadow-sm'>
+            <div className='card shadow-sm' style={{height: "430px"}}>
               <video
                 className='bd-placeholder-img card-img-top'
                 width='100%'
@@ -326,8 +323,7 @@ export default function Portfolio() {
                 <div className='d-flex justify-content-between align-items-center'>
                   <div className='btn-group'>
                     <Link
-                      href='https://umeryasir718.github.io/CSS_Gallery/'
-                      target='_blank'
+               
                     >
                       <button
                         type='button'
@@ -337,7 +333,7 @@ export default function Portfolio() {
                       </button>
                     </Link>
                   </div>
-                  <small className='text-light'>4 Month ago</small>
+                  <small className='text-light'>1/5 Month ago</small>
                 </div>
               </div>
             </div>
@@ -348,7 +344,7 @@ export default function Portfolio() {
       <div className='container my-3'>
         <div className='row'>
           <div className='col-md-5'>
-            <div className='card shadow-sm'>
+            <div className='card shadow-sm' style={{height: "430px"}}>
               <video
                 className='bd-placeholder-img card-img-top'
                 width='100%'
@@ -377,14 +373,14 @@ export default function Portfolio() {
                       View
                     </button>
                   </div>
-                  <small className='text-light'>1/5 Month ago</small>
+                  <small className='text-light'>2/5 Month ago</small>
                 </div>
               </div>
             </div>
           </div>
           <div className='col-md-2'>&nbsp;&nbsp;&nbsp;&nbsp;</div>
           <div className='col-md-5'>
-            <div className='card shadow-sm'>
+            <div className='card shadow-sm' style={{height: "430px"}}>
               <video
                 className='bd-placeholder-img card-img-top'
                 width='100%'
@@ -408,8 +404,7 @@ export default function Portfolio() {
                 <div className='d-flex justify-content-between align-items-center'>
                   <div className='btn-group'>
                     <Link
-                      href='https://umeryasir718.github.io/CSS_Gallery/'
-                      target='_blank'
+                 
                     >
                       <button
                         type='button'
@@ -419,7 +414,7 @@ export default function Portfolio() {
                       </button>
                     </Link>
                   </div>
-                  <small className='text-light'>2 Month ago</small>
+                  <small className='text-light'>2/5 Month ago</small>
                 </div>
               </div>
             </div>
@@ -430,7 +425,7 @@ export default function Portfolio() {
       <div className='container my-3'>
         <div className='row'>
           <div className='col-md-5'>
-            <div className='card shadow-sm'>
+            <div className='card shadow-sm' style={{height: "430px"}}>
               <video
                 className='bd-placeholder-img card-img-top'
                 width='100%'
@@ -460,14 +455,14 @@ export default function Portfolio() {
                       View
                     </button>
                   </div>
-                  <small className='text-light'>1/5 Month ago</small>
+                  <small className='text-light'>3/5 Month ago</small>
                 </div>
               </div>
             </div>
           </div>
           <div className='col-md-2'>&nbsp;&nbsp;&nbsp;&nbsp;</div>
-          <div className='col-md-5'>
-            <div className='card shadow-sm'>
+          <div className='col-md-5 mb-3'>
+            <div className='card shadow-sm' style={{height: "430px"}}>
               <video
                 className='bd-placeholder-img card-img-top'
                 width='100%'
@@ -483,13 +478,12 @@ export default function Portfolio() {
                   <span className='text-warning font-weight-bold'>
                     Kodex Website{' '}
                   </span>
-                  is a practicing software house website, consiting of multiple pages in experince with industry based projects, working on single single section is easy to manage.
+                  is a practicing software house website, consiting of multiple pages in experince with industry based projects. Wesbiste is creating in that a way so that it beccome fully resposive on all sizes screens.
                 </p>
                 <div className='d-flex justify-content-between align-items-center'>
                   <div className='btn-group'>
                     <Link
-                      href='https://umeryasir718.github.io/CSS_Gallery/'
-                      target='_blank'
+                     
                     >
                       <button
                         type='button'
@@ -499,7 +493,7 @@ export default function Portfolio() {
                       </button>
                     </Link>
                   </div>
-                  <small className='text-light'>2 Month ago</small>
+                  <small className='text-light'>3/5 Month ago</small>
                 </div>
               </div>
             </div>

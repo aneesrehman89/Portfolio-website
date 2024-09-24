@@ -59,14 +59,14 @@ export default function Contact() {
                             <p class="text-light">Freelance Available</p>
                         </div>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 mb-3">
                         <div class="mapouter featurette-image img-fluid mx-auto border" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                             <div class="gmap_canvas"><iframe title="This is a unique title" class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=673&amp;height=150&amp;hl=en&amp;q=Johar Town, Lahore&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                             </iframe>
                                 <a href="https://embed-googlemap.com">embed google maps</a>
                             </div>
                         </div><br />
-                        <div class="h3 text-light">How Can I <span class="text-warning">Help You?</span></div>
+                        <div class="h3 text-light ">How Can I <span class="text-warning">Help You?</span></div>
                         <div class="form-group text-light row gy-2 gx-3 align-items-center">
                             <div class="col-md-6 form-group">
                                 <input type="text" class="form-control" id="contactName" placeholder="Full Name" required="" onChange={handleName} /><br />

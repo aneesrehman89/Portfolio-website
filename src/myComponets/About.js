@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 import Navbar from './Navbar';
+import anees from '../Pics/anees.jpg';
 export default function About() {
   return (
     <div>
@@ -14,8 +15,8 @@ export default function About() {
             <div className='col-md-6'>
               <h5 className='textColor'>
                 I am a Student of BSc Information Technology. I am Expert in
-                desgin Web Pages responsive with Outstanding Graphic, Color, and
-                decent interface. Work Experience in kodex Technology software
+                desgning Web Pages responsive with Outstanding Graphic, Color, and
+                decent interface. I have Work Experience in kodex Technology software
                 house. Ability to do work in less time with more accuracy.
               </h5>
             </div>
@@ -30,10 +31,7 @@ export default function About() {
               &nbsp;
               <div className='text-warning font-weight-bold'>
                 Address
-                <span className='textColor'>
-                  {' '}
-                  ➤ Johar Town, Lahore
-                </span>
+                <span className='textColor'> ➤ Johar Town, Lahore</span>
               </div>
               &nbsp;
               <div className='text-warning font-weight-bold'>
@@ -96,7 +94,7 @@ export default function About() {
                       ></i>
                     </h2>
                     <p className='text-light font-weight-bold'>E-mail</p>
-                    <p className='text-light'>aneesurrehman89se@gmail.com</p>
+                    <p className='text-light about-email'>aneesurrehman89se@gmail.com</p>
                   </div>
                 </div>
                 <div className='col-md-6 text-light  mb-2'>
@@ -127,12 +125,11 @@ export default function About() {
               </div>
               <br />
             </div>
-            <div className='col-md-6 pic'>
+            <div className='col-md-6 pic ' style={{ width: '450px', height: '400px' }}>
               <img
                 className='bd-placeholder-img bd-placeholder-img-sm featurette-image img-fluid mx-auto rounded'
-                width='400'
-                height='200'
-                src='https://res.cloudinary.com/dvccsosdc/image/upload/v1706047903/Aboutpg_rzkieg.png'
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                src={anees}
                 alt=''
               />
             </div>
